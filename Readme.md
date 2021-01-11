@@ -9,7 +9,7 @@ Database: In memory H2 database
 
 Since we have not used the file persistance in application.properties for the H2 database the data is cleaned when application is restarted 
 
-For Demo purposes we have used the H2 database and we can plugin any other database by inlcuding the appropriate drivers and providing the database details
+For Demo purposes we have used the H2 database and we can plugin any other database by including the appropriate drivers and providing the database details
 
 ### Build
 
@@ -31,9 +31,9 @@ java -jar target/RobotClean-0.0.1-SNAPSHOT.jar
 
 ### API's
 
-If running locally then the URL is http://localhost:<port>/clean and the method used is POST
+If running locally then the URL is http://localhost:8080/clean and the method used is POST
 
-Request and Response in JSON format 
+Request and Response in JSON format. 
 
 Sample Input JSON 
 
